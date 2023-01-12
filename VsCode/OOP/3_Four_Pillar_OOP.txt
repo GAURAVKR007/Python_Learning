@@ -1,0 +1,25 @@
+The Four Pillar of OOP are :
+
+    1. Encapsulation => Encapsulation is a concept in object-oriented programming (OOP) that refers to the practice of hiding the implementation details of an object from the outside world. This is typically done by using access modifiers (such as "private" or "protected") to control access to the object's internal state and methods. Encapsulation helps to promote code reusability and maintainability, by keeping the implementation details of an object separate from its interface. It also helps to prevent unintended changes to an object's internal state by restricting access to it.
+
+    ==========================================================================================================
+
+    2. Abstraction => Abstraction is a concept in object-oriented programming (OOP) that refers to the process of reducing complexity by hiding unnecessary details. It allows developers to focus on the essential features of an object or system, without being distracted by the underlying implementation details.
+
+
+    ==========================================================================================================
+    3. Inheritance => Inheritance is a concept in object-oriented programming (OOP) that refers to the ability of a class to inherit properties and methods from a parent class. The class that inherits is called a subclass, or derived class, and the class from which it inherits is called a superclass, or base class.
+
+    Inheritance allows for code reusability by allowing a new class to acquire the properties and methods of an existing class, without having to rewrite the same code. This enables developers to create a class hierarchy, where a subclass can inherit the properties and methods of its parent class and add new functionality or override existing functionality.
+
+    ==========================================================================================================
+
+    4. Polymorphism => In Python, polymorphism is the ability of an object to be treated as an instance of multiple types or classes. It allows objects of different classes to be used interchangeably, without having to know the specific type of the object at runtime.
+
+    There are two main ways to achieve polymorphism in Python:
+
+    Duck typing: This is a feature of the Python programming language that allows objects of different types to be used interchangeably as long as they have the same methods or attributes. This is also known as "if it walks like a duck and quacks like a duck, it must be a duck"
+    Using interfaces or abstract base classes (ABCs): In Python, interfaces and ABCs are used to specify a contract that a class must adhere to in order to be considered a certain type. This allows for objects of different classes to be used interchangeably as long as they implement the same interface or inherit from the same ABC.
+    In summary, Polymorphism in python is the ability of an object to be treated as an instance of multiple types or classes, which allows objects of different classes to be used interchangeably without having to know the specific type of the object at runtime.
+
+    ==========================================================================================================
