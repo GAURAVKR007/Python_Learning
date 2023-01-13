@@ -1,12 +1,17 @@
 # OOP 
-class user():
+class User():
+    def __init__(self,email):
+        self.email =email
+
     def sign_in(self):
         print("Player logged in")
 
-class PlayerCharacter(user):           # Inheritance Example
+class PlayerCharacter(User):           # Inheritance Example
     # Class Object Attributes
     membership = True;
-    def __init__(self,name,age):
+    def __init__(self,name,age,email):
+        super.__init__(email)          # Super Method to call the parent constructor
+        # User.__init__(self,email)    # Alternate way to use the Super Method
         self.name = name;    # Attributes
         self.age = age;
 
