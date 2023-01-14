@@ -9,4 +9,3 @@ def greet2():           # Return a Function
     
     return func
 
-print(greet2())
