@@ -9,9 +9,11 @@ def fibonacci(number):
         a = b
         b = temp + b
 
-
+fibonacci_list = []
 
 fib = fibonacci(21)
 for i in fib:
-    print(i)
+    fibonacci_list.append(i)
+
+print(fibonacci_list)
     
