@@ -29,14 +29,14 @@ def limit_handler(cursor):
 #          follower[i].unfollow()
 #          break
 
-search_string = 'Man'
-numberOfTweets = 2
+search_string = 'GTR'
+numberOfTweets = 20
 
-for tweet in tweepy.Cursor(api.search_tweets,search_string).items(numberOfTweets):
+for tweet in limit_handler(tweepy.Cursor(api.search_tweets,search_string).items(numberOfTweets)):
    try:
       tweet.favorite()
       print('I liked that tweet')
-   except tweepy.TweepError as e:
+   except AttributeError as e:
       print(e.reason)
    except StopIteration:
       break
